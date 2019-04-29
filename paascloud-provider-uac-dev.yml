@@ -80,7 +80,7 @@ paascloud:
     code:
       image:
         expireIn: 180
-        url: /auth/register,/auth/code/sms
+        url: /auth/register,/auth/submitResetPwdEmail,/auth/code/sms
       sms:
         expireIn: 600
         url: /uac/auth/submitResetPwdPhone
